@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Aptipro | <%= data.ownerName %></title>
+  <link rel="icon" type="image/x-icon" href="">
+  <meta name="description" content="<%= description %>" />
+  <meta name="keywords" content="APTIPRO,Learn, code, and compete to stay ahead of the curve" />
+  <meta name="author" content="<%= data.ownerImageUrl %>" />
+  <meta name="og:title" content="<%= data.ownerName %> | Aptipro" />
+  <meta name="og:type" content="Online Learning Platform" />
+  <meta name="og:url" content="<%= host %>" />
+  <meta name="og:image" content="<%= data.ownerImageUrl %>" />
+  <meta name="og:site_name" content="Aptipro" />
+
+  <meta name="twitter:card" content="Aptipro">
+  <meta name="twitter:site" content="<%= host %>">
+  <meta name="twitter:title" content="<%= data.ownerName %> | Aptipro">
+  <meta name="twitter:description" content="<%= description %>">
+  <meta name="twitter:image" content="<%= data.ownerImageUrl %>">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+
+<body class="container">
+  <%= JSON.stringify(data) %>
+</body>
+
+</html>

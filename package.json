@@ -1,0 +1,19 @@
+{
+  "name": "aptipro-node",
+  "version": "1.0.0",
+  "description": "APTIPRO,Learn, code, and compete to stay ahead of the curve",
+  "main": "start.js",
+  "scripts": {
+    "start": "npm run start.js"
+  },
+  "author": "legal@aptipro.ai",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-static-gzip": "^2.1.8"
+  }
+}
