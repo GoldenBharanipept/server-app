@@ -1,6 +1,6 @@
 //////Configuration
 const PORT = 3000;
-const allowlist = ['aptipro.ai', 'localhost:3000', '37e2-2401-4900-1ce3-8f63-adc6-9e9d-5bd5-e90e.ngrok-free.app'];
+const allowlist = ['aptipro.ai', 'localhost:3000', '37e2-2401-4900-1ce3-8f63-adc6-9e9d-5bd5-e90e.ngrok-free.app', '16.171.26.35:3000'];
 const API_BASE = 'http://api.qa.aptipro.ai:8080';
 const HOST = 'http://api.qa.aptipro.ai';
 const tokenStr = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMyIsImVtYWlsIjoiYXNoY29kZTk5OEBnbWFpbC5jb20iLCJpZCI6MTMsInBob25lIjoiOTkwMTgzNTEwMSIsImhhc0FwdGl0dWRlU3Vic2NyaXB0aW9uIjp0cnVlLCJhcHRpdHVkZVN1YnNjcmlwdGlvbkVuZERhdGUiOjE3MjkwODY0ODgwMDAsImNvdXJzZVN1YnNjcmlwdGlvbnMiOnsiNjYiOjE3MjgxMjIxNTMwMDAsIjgyIjoxNzI4MTM4MDE2MDAwLCI3MCI6MTc1NzMzMTI4MjAwMCwiNDIiOjE3Mjg4MTk5OTcwMDAsIjE1IjoxNzI5MDg2NDg4MDAwfSwicGFyZW50X3VzZXJfaWQiOjEzLCJyZWdpc3RlcmVkQXQiOjE3MTg2MTMzMTYwMDAsImlhdCI6MTcyNzQzNjM1OCwiaXNzIjoiYXB0aXBybyIsImV4cCI6MTczMTI3OTM1OH0.maCm3pl5r63Qoz2qSFHCl1W7BkIuqUGh7pG8XlHP8NNhLzxoG4bg9QmznywAjoxMIXHwGVnlTmeIUENqIifU2A';
